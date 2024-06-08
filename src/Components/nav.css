@@ -1,0 +1,36 @@
+.nav-one {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color:#abb8c3;;
+    color: #54595F;
+    font-size: 15px;
+    
+    width: 100%;
+    font-family:  sans-serif;
+    
+}
+.nav-left{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    width: 20vw;
+
+    
+}
+.active{
+    background-color:#54595F ;
+           
+   }
+   .navhover{
+    
+    color:#54595F ;
+    text-decoration: none;
+    font-weight: bolder;
+   }
+.navhover:hover{
+    color: #abb8c3;
+}
+.icons{
+    color:black
+}

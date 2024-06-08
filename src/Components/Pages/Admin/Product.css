@@ -1,0 +1,22 @@
+
+.productNav {
+     display: flex;
+    justify-content: space-between; 
+    background-color: #333;
+    padding: 10px;
+   margin-left: 200px;
+    
+  }
+  
+  .productNav a {
+    text-decoration: none;
+    color: white;
+    
+  }
+   @media (max-width: 600px) {
+    .productNav {
+      flex-direction: column;
+      align-items: center;
+    }
+  } 
+  
